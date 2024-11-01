@@ -1,0 +1,483 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2019-07-18 11:02+0200\n"
+"PO-Revision-Date: 2019-07-18 11:03+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.3\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: .git\n"
+
+#: includes/functions.php:28
+msgid "There was an error processing your request"
+msgstr "Er was een probleem met het verwerken van je aanvraag"
+
+#: includes/functions.php:29
+msgid "Please select a variation"
+msgstr "Kies een variant"
+
+#: includes/functions.php:63
+msgid "Fast checkout with"
+msgstr "Supersnel betalen met"
+
+#: includes/functions.php:260
+msgid "Order status set by Tikkie Fast Checkout (webhook)"
+msgstr "Orderstatus veranderd door Tikkie Fast Checkout (webhook)"
+
+#: includes/functions.php:288
+msgid "Couldn't update option API-key in woocommerce_tikkie_settings"
+msgstr "API-key kon niet geüpdatet worden"
+
+#: includes/functions.php:295
+msgid "Couldn't update option Merchant-token in woocommerce_tikkie_settings"
+msgstr "Merchant token kon niet geüpdatet worden"
+
+#: includes/functions.php:314
+msgid ""
+"Couldn't update option \"Show on product-detail page\" in "
+"woocommerce_tikkie_settings"
+msgstr "Knop tonen op productdetailpagina kon niet geüpdatet worden"
+
+#: includes/functions.php:321
+msgid ""
+"Couldn't update option \"Show on cart page\" in woocommerce_tikkie_settings"
+msgstr "Knop tonen op winkelwagenpagina kon niet geüpdatet worden"
+
+#: includes/functions.php:328
+msgid ""
+"Couldn't update option \"Show terms of service\" in "
+"woocommerce_tikkie_settings"
+msgstr "Knop algemene voorwaarden tonen kon niet geüpdatet worden"
+
+#: includes/functions.php:334 includes/initTikkieGateway.php:169
+msgid "If you continue, you will agree to our [terms of service]"
+msgstr "Als je verder gaat, ga je akkoord met de [voorwaarden]"
+
+#: includes/functions.php:336
+msgid ""
+"Couldn't update option \"Term of service link\" in "
+"woocommerce_tikkie_settings"
+msgstr "Text algemene voorwaarden link kon niet geüpdatet worden"
+
+#: includes/functions.php:352
+msgid ""
+"Couldn't update option \"Shipping costs\" in woocommerce_tikkie_settings"
+msgstr "Verzendkosten konden niet geüpdatet worden"
+
+#: includes/functions.php:443
+msgid ""
+"Tikkie Fast Checkout is not available because there are no items in your cart"
+msgstr ""
+"Het is niet mogelijk te betalen via Tikkie Fast Checkout omdat er geen "
+"producten in je winkelmand zitten"
+
+#: includes/functions.php:559
+msgid "Tikkie Fast Checkout payment expired"
+msgstr "Tikkie Fast Checkout betalingstermijn verstreken"
+
+#: includes/functions.php:567
+msgid "Order status set by Tikkie Fast Checkout (cronjob)"
+msgstr "Orderstatus veranderd door Tikkie Fast Checkout (cronjob)"
+
+#: includes/functions.php:655
+msgid "Order status set by Tikkie Fast Checkout (order received page)"
+msgstr ""
+"Orderstatus veranderd door Tikkie Fast Checkout (order ontvangen pagina)"
+
+#: includes/functions.php:791
+msgid ""
+"Thanks for creating your account, login below to view your account and "
+"orders."
+msgstr ""
+"Bedankt voor je accountregistratie, log hieronder in om je account en "
+"bestellingen te bekijken."
+
+#: includes/functions.php:857
+msgid "Welcome "
+msgstr "Welkom "
+
+#: includes/functions.php:858
+msgid "Step 1"
+msgstr "Stap 1"
+
+#: includes/functions.php:859
+msgid "Step 2"
+msgstr "Stap 2"
+
+#: includes/functions.php:860
+msgid "Step 3"
+msgstr "Stap 3"
+
+#: includes/functions.php:862 includes/initTikkieGateway.php:26
+#: includes/initTikkieGateway.php:42
+msgid "Tikkie Fast Checkout"
+msgstr "Tikkie Fast Checkout"
+
+#: includes/functions.php:864
+msgid ""
+"Enable customers of your webshop to checkout without having the customer "
+"entering their details like email and address information."
+msgstr ""
+"Laat klanten van je webshop afrekenen zonder dat ze hun gegevens in hoeven "
+"te vullen."
+
+#: includes/functions.php:865
+msgid ""
+"You can go directly to settings or use the wizard to guide you through the "
+"most essential settings."
+msgstr "Je kunt direct naar de instellingen gaan of deze wizard doorlopen."
+
+#: includes/functions.php:867
+msgid "Go directly to settings"
+msgstr "Ga direct naar instellingen"
+
+#: includes/functions.php:869
+msgid "Use the wizard"
+msgstr "Gebruik de wizard"
+
+#: includes/functions.php:874
+msgid ""
+"The most important part to actually start working with Tikkie Fast Checkout, "
+"is that you need to set your API-key and merchant token."
+msgstr ""
+"De belangrijkste onderdelen die nodig zijn om Tikkie Fast Checkout te kunnen "
+"gebruiken zijn de API key en Merchant token."
+
+#: includes/functions.php:876
+msgid "API-key:"
+msgstr "API-key:"
+
+#: includes/functions.php:878
+msgid ""
+"Tikkie Fast Checkout uses a so called merchant token for authentication."
+msgstr ""
+"De Tikkie Fast Checkout API gebruikt een merchant token voor authenticatie."
+
+#: includes/functions.php:879
+msgid "Merchant token:"
+msgstr "Merchant token:"
+
+#: includes/functions.php:883 includes/functions.php:912
+msgid "previous"
+msgstr "vorige"
+
+#: includes/functions.php:885
+msgid "next"
+msgstr "volgende"
+
+#: includes/functions.php:891
+msgid ""
+"Choose whether you want to show the Tikkie Fast Checkout button on the "
+"product detail page and/or on the cart page."
+msgstr ""
+"Kies of je Tikkie Fast Checkout knoppen wilt tonen op de productpagina en/of "
+"winkelwagenpagina."
+
+#: includes/functions.php:895
+msgid "Show on product detail page"
+msgstr "Toon knop op productdetailpagina"
+
+#: includes/functions.php:899 includes/initTikkieGateway.php:152
+#: includes/initTikkieGateway.php:154
+msgid "Show on cart page"
+msgstr "Toon knop op winkelwagenpagina"
+
+#: includes/functions.php:904 includes/initTikkieGateway.php:159
+#: includes/initTikkieGateway.php:161
+msgid "Show terms of service"
+msgstr "Algemene voorwaarden tonen"
+
+#: includes/functions.php:908
+msgid "Terms of service link (including http(s)://)"
+msgstr "Algemene voorwaarden link (inclusief http(s)://)"
+
+#: includes/functions.php:914
+msgid "finish"
+msgstr "klaar"
+
+#: includes/functions.php:935
+msgid "Every three minutes"
+msgstr "Elke 3 minuten"
+
+#: includes/initTikkieGateway.php:27
+msgid "Allows payment through Tikkie Fast Checkout."
+msgstr "Voegt functionaliteit toe om te betalen via Tikkie Fast Checkout."
+
+#: includes/initTikkieGateway.php:35
+msgid ""
+"Sorry, only administrators are allowed to change settings for this payment "
+"method."
+msgstr ""
+"Sorry, alleen administrators mogen instellingen van deze betaalmethode "
+"wijzigen."
+
+#: includes/initTikkieGateway.php:98
+msgid "Enable/Disable"
+msgstr "Actief/Inactief"
+
+#: includes/initTikkieGateway.php:100
+msgid "Enable Tikkie Fast Checkout"
+msgstr "Activeer Tikkie Fast Checkout"
+
+#: includes/initTikkieGateway.php:105
+msgid "Production mode"
+msgstr "Productie modus"
+
+#: includes/initTikkieGateway.php:107
+msgid "Enable production mode"
+msgstr "Productie modus inschakelen"
+
+#: includes/initTikkieGateway.php:109
+msgid ""
+"When this option is enabled, payments will be processed and test-mode wil be "
+"disabled"
+msgstr ""
+"Als deze optie ingeschakeld is worden betalingen verwerkt en de test modus "
+"uitgeschakeld"
+
+#: includes/initTikkieGateway.php:113
+msgid "Production API-key"
+msgstr "Productie API-key"
+
+#: includes/initTikkieGateway.php:115
+msgid "This API-key is used for authentication in production mode"
+msgstr "Deze API key is nodig voor authenticatie in productie modus"
+
+#: includes/initTikkieGateway.php:121
+msgid "Merchant token"
+msgstr "Merchant token"
+
+#: includes/initTikkieGateway.php:123 includes/initTikkieGateway.php:139
+msgid ""
+"The Tikkie Fast Checkout API uses a so called 'merchant token' for "
+"authentication."
+msgstr ""
+"De Tikkie Fast Checkout API gebruikt een zogenaamde 'verkoperstoken' voor "
+"authenticatie."
+
+#: includes/initTikkieGateway.php:129
+msgid "Test API-key"
+msgstr "Test API-key"
+
+#: includes/initTikkieGateway.php:131
+msgid "This API-key is used for authentication in test mode"
+msgstr "Deze API key is nodig voor authenticatie in test modus"
+
+#: includes/initTikkieGateway.php:137
+msgid "Test Merchant token"
+msgstr "Test Merchant token"
+
+#: includes/initTikkieGateway.php:145 includes/initTikkieGateway.php:147
+msgid "Show on product-detail page"
+msgstr "Toon knop op productdetailpagina"
+
+#: includes/initTikkieGateway.php:166
+msgid "Terms of service text"
+msgstr "Algemene voorwaarden tekst"
+
+#: includes/initTikkieGateway.php:168
+msgid ""
+"This text will be used when the terms of service has been enabled. You can "
+"define the link by placing your link text into square brackets ( [link "
+"text] )"
+msgstr ""
+"Deze tekst zal worden gebruikt wanneer de servicevoorwaarden zijn "
+"ingeschakeld. U kunt de koppeling definiëren door uw linktekst tussen "
+"vierkante haken te plaatsen ([link tekst])"
+
+#: includes/initTikkieGateway.php:174
+msgid "Terms of service link"
+msgstr "Algemene voorwaarden link"
+
+#: includes/initTikkieGateway.php:176
+msgid ""
+"This is the URL where the terms and conditions are located. (including "
+"http(s)://)"
+msgstr ""
+"Dit is de URL waar de algemene voorwaarden zich bevinden (inclusief "
+"http(s)://)"
+
+#: includes/initTikkieGateway.php:182
+msgid "Show registration form on thank you page"
+msgstr "Toon registratieformulier op de bedanktpagina"
+
+#: includes/initTikkieGateway.php:184
+msgid "Let the user create an account after payment"
+msgstr "Laat de gebruiker een account aanmaken na de betaling"
+
+#: includes/initTikkieGateway.php:189
+msgid "Tikkie Order Expiration time"
+msgstr "Verlooptijd van een Tikkie bestelling"
+
+#: includes/initTikkieGateway.php:191
+msgid ""
+"Expiration of the order in seconds, e.g. 900 when order expires in 15 "
+"minutes. (between 60-1800)"
+msgstr ""
+"Verlooptijd van een bestelling in seconden. Bijvoorbeeld 900 wanneer een "
+"order na 15 minuten mag verlopen. (tussen 60 en 1800)"
+
+#: includes/initTikkieGateway.php:197
+msgid "Order Status"
+msgstr "Orderstatus"
+
+#: includes/initTikkieGateway.php:200
+msgid "Choose whether status you wish after checkout."
+msgstr "Kies welke status een order moet krijgen na een succesvolle betaling."
+
+#: includes/initTikkieGateway.php:207
+msgid "Instructions"
+msgstr "Instructies"
+
+#: includes/initTikkieGateway.php:209
+msgid "Instructions that will be added to the thank you page and emails."
+msgstr "Instructies die weergeven worden op de bedanktpagina en in e-mails."
+
+#: includes/initTikkieGateway.php:215
+msgid "Log file"
+msgstr "Log-bestand"
+
+#: includes/initTikkieGateway.php:217
+msgid "Showing log entries chronologically"
+msgstr "Chronologische weergave"
+
+#: woocommerce-tikkie-fast-checkout.php:53
+msgid ""
+"Tikkie Fast Checkout is disabled because Woocommerce is not installed or "
+"inactive."
+msgstr ""
+"Tikkie Fast Checkout is gedeactiveerd omdat WooCommerce niet geïnstalleerd "
+"of niet actief is."
+
+#, fuzzy
+#~| msgid "Welcome "
+#~ msgid "Welcome"
+#~ msgstr "Welkom "
+
+#, fuzzy
+#~| msgid ""
+#~| "Enable customers of your webshop to checkout without having the customer "
+#~| "entering their details like email and address information."
+#~ msgid ""
+#~ "Enable customers of your (web)shop to checkout without entering "
+#~ "customer’s details like email and address information all the time."
+#~ msgstr ""
+#~ "Laat klanten van je webshop afrekenen zonder dat ze hun gegevens in "
+#~ "hoeven te vullen."
+
+#, fuzzy
+#~| msgid ""
+#~| "You can go directly to settings or use the wizard to guide you through "
+#~| "the most essential settings."
+#~ msgid ""
+#~ "You can choose to go directly to \"settings\" or use the wizard to guide "
+#~ "you"
+#~ msgstr "Je kunt direct naar de instellingen gaan of deze wizard doorlopen."
+
+#, fuzzy
+#~| msgid ""
+#~| "The most important part to actually start working with Tikkie Fast "
+#~| "Checkout, is that you need to set your API-key and merchant token."
+#~ msgid ""
+#~ "To actually start working with Tikkie Fast Checkout, you need to set your "
+#~ "API-key"
+#~ msgstr ""
+#~ "De belangrijkste onderdelen die nodig zijn om Tikkie Fast Checkout te "
+#~ "kunnen gebruiken zijn de API key en Merchant token."
+
+#, fuzzy
+#~| msgid "Test API-key"
+#~ msgid "Set API-key"
+#~ msgstr "Test API-key"
+
+#, fuzzy
+#~| msgid ""
+#~| "Tikkie Fast Checkout uses a so called merchant token for authentication."
+#~ msgid ""
+#~ "Tikkie Fast Checkout uses a so called 'Merchant-token' for authentication."
+#~ msgstr ""
+#~ "De Tikkie Fast Checkout API gebruikt een merchant token voor "
+#~ "authenticatie."
+
+#, fuzzy
+#~| msgid "Merchant token"
+#~ msgid "Set Merchant-token"
+#~ msgstr "Merchant token"
+
+#, fuzzy
+#~| msgid "Shipping Costs:"
+#~ msgid "Set Shipping Cost"
+#~ msgstr "Verzendkosten:"
+
+#~ msgid "Test environment"
+#~ msgstr "Testomgeving"
+
+#~ msgid "Enable / use test environment for Tikkie Fast Checkout"
+#~ msgstr "Gebruik testomgeving voor Tikkie Fast Checkout"
+
+#~ msgid "Tikkie Fast Checkout API-key"
+#~ msgstr "Tikkie Fast Checkout API key"
+
+#~ msgid "Tikkie Fast Checkout Merchant token"
+#~ msgstr "Tikkie Fast Checkout verkoperstoken"
+
+#~ msgid ""
+#~ "Normally, WooCommerce calculates the shipping costs when the user enters "
+#~ "his/her address information. During a Tikkie Fast Checkout, the user's "
+#~ "address won't be available until after the payment. Therefore the "
+#~ "shipping costs are fixed and must be set below."
+#~ msgstr ""
+#~ "Normaalgesproken berekent WooCommerce de verzendkosten wanneer een "
+#~ "gebruiker zijn/haar adres invoert. Bij Tikkie Fast Checkout zijn de "
+#~ "adresgegevens niet beschikbaar tot na de betaling. Daarom moeten er "
+#~ "hieronder vaste verzendkosten ingevoerd worden."
+
+#~ msgid "Shipping cost via Tikkie Fast Checkout"
+#~ msgstr "Verzendkosten bij Tikkie Fast Checkout"
+
+#~ msgid "Default shipping cost when paying via Tikkie."
+#~ msgstr "De verzendkosten wanneer Tikkie Fast Checkout gebruikt wordt."
+
+#~ msgid "Free shipping from"
+#~ msgstr "Gratis verzending vanaf"
+
+#~ msgid "If the order amount exceeds this value, there is free shipping."
+#~ msgstr ""
+#~ "Als het order bedrag groter is dan dit bedrag zal de verzending gratis "
+#~ "zijn."
+
+#~ msgid "Activation"
+#~ msgstr "Activatie"
+
+#~ msgid "Show on single product page"
+#~ msgstr "Tonen op productdetailpagina"
+
+#~ msgid "Show button on cart page"
+#~ msgstr "Toon knop op winkelwagenpagina"
+
+#~ msgid "API key for authentication, provided by Tikkie"
+#~ msgstr "API key voor authenticatie, voorzien door Tikkie"
+
+#~ msgid "Merchant token, provided by Tikkie"
+#~ msgstr "Merchant token, verkrijgbaar bij Tikkie"
+
+#~ msgid "Title"
+#~ msgstr "Titel"
+
+#~ msgid "The payment method title as shown in emails"
+#~ msgstr "De betaalmethode, wordt onder andere weergeven in e-mails"
+
+#~ msgid "Order status after successful Tikkie Checkout payment"
+#~ msgstr "Orderstatus veranderd door Tikkie Fast Checkout"
+
+#~ msgid "This controls the title which the user sees during checkout."
+#~ msgstr ""
+#~ "Deze titel wordt getoond als betaalmethode tijdens het afrekenproces."

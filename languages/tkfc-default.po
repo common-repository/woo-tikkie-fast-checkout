@@ -1,0 +1,332 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Tikkie Fast Checkout\n"
+"POT-Creation-Date: 2019-07-18 10:58+0200\n"
+"PO-Revision-Date: 2019-07-18 10:59+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.3\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: .git\n"
+"X-Poedit-SearchPathExcluded-1: languages\n"
+
+#: includes/functions.php:28
+msgid "There was an error processing your request"
+msgstr ""
+
+#: includes/functions.php:29
+msgid "Please select a variation"
+msgstr ""
+
+#: includes/functions.php:63
+msgid "Fast checkout with"
+msgstr ""
+
+#: includes/functions.php:260
+msgid "Order status set by Tikkie Fast Checkout (webhook)"
+msgstr ""
+
+#: includes/functions.php:288
+msgid "Couldn't update option API-key in woocommerce_tikkie_settings"
+msgstr ""
+
+#: includes/functions.php:295
+msgid "Couldn't update option Merchant-token in woocommerce_tikkie_settings"
+msgstr ""
+
+#: includes/functions.php:314
+msgid ""
+"Couldn't update option \"Show on product-detail page\" in "
+"woocommerce_tikkie_settings"
+msgstr ""
+
+#: includes/functions.php:321
+msgid ""
+"Couldn't update option \"Show on cart page\" in woocommerce_tikkie_settings"
+msgstr ""
+
+#: includes/functions.php:328
+msgid ""
+"Couldn't update option \"Show terms of service\" in "
+"woocommerce_tikkie_settings"
+msgstr ""
+
+#: includes/functions.php:334 includes/initTikkieGateway.php:169
+msgid "If you continue, you will agree to our [terms of service]"
+msgstr ""
+
+#: includes/functions.php:336
+msgid ""
+"Couldn't update option \"Term of service link\" in "
+"woocommerce_tikkie_settings"
+msgstr ""
+
+#: includes/functions.php:352
+msgid ""
+"Couldn't update option \"Shipping costs\" in woocommerce_tikkie_settings"
+msgstr ""
+
+#: includes/functions.php:443
+msgid ""
+"Tikkie Fast Checkout is not available because there are no items in your cart"
+msgstr ""
+
+#: includes/functions.php:559
+msgid "Tikkie Fast Checkout payment expired"
+msgstr ""
+
+#: includes/functions.php:567
+msgid "Order status set by Tikkie Fast Checkout (cronjob)"
+msgstr ""
+
+#: includes/functions.php:655
+msgid "Order status set by Tikkie Fast Checkout (order received page)"
+msgstr ""
+
+#: includes/functions.php:791
+msgid ""
+"Thanks for creating your account, login below to view your account and "
+"orders."
+msgstr ""
+
+#: includes/functions.php:857
+msgid "Welcome "
+msgstr ""
+
+#: includes/functions.php:858
+msgid "Step 1"
+msgstr ""
+
+#: includes/functions.php:859
+msgid "Step 2"
+msgstr ""
+
+#: includes/functions.php:860
+msgid "Step 3"
+msgstr ""
+
+#: includes/functions.php:862 includes/initTikkieGateway.php:26
+#: includes/initTikkieGateway.php:42
+msgid "Tikkie Fast Checkout"
+msgstr ""
+
+#: includes/functions.php:864
+msgid ""
+"Enable customers of your webshop to checkout without having the customer "
+"entering their details like email and address information."
+msgstr ""
+
+#: includes/functions.php:865
+msgid ""
+"You can go directly to settings or use the wizard to guide you through the "
+"most essential settings."
+msgstr ""
+
+#: includes/functions.php:867
+msgid "Go directly to settings"
+msgstr ""
+
+#: includes/functions.php:869
+msgid "Use the wizard"
+msgstr ""
+
+#: includes/functions.php:874
+msgid ""
+"The most important part to actually start working with Tikkie Fast Checkout, "
+"is that you need to set your API-key and merchant token."
+msgstr ""
+
+#: includes/functions.php:876
+msgid "API-key:"
+msgstr ""
+
+#: includes/functions.php:878
+msgid ""
+"Tikkie Fast Checkout uses a so called merchant token for authentication."
+msgstr ""
+
+#: includes/functions.php:879
+msgid "Merchant token:"
+msgstr ""
+
+#: includes/functions.php:883 includes/functions.php:912
+msgid "previous"
+msgstr ""
+
+#: includes/functions.php:885
+msgid "next"
+msgstr ""
+
+#: includes/functions.php:891
+msgid ""
+"Choose whether you want to show the Tikkie Fast Checkout button on the "
+"product detail page and/or on the cart page."
+msgstr ""
+
+#: includes/functions.php:895
+msgid "Show on product detail page"
+msgstr ""
+
+#: includes/functions.php:899 includes/initTikkieGateway.php:152
+#: includes/initTikkieGateway.php:154
+msgid "Show on cart page"
+msgstr ""
+
+#: includes/functions.php:904 includes/initTikkieGateway.php:159
+#: includes/initTikkieGateway.php:161
+msgid "Show terms of service"
+msgstr ""
+
+#: includes/functions.php:908
+msgid "Terms of service link (including http(s)://)"
+msgstr ""
+
+#: includes/functions.php:914
+msgid "finish"
+msgstr ""
+
+#: includes/functions.php:935
+msgid "Every three minutes"
+msgstr ""
+
+#: includes/initTikkieGateway.php:27
+msgid "Allows payment through Tikkie Fast Checkout."
+msgstr ""
+
+#: includes/initTikkieGateway.php:35
+msgid ""
+"Sorry, only administrators are allowed to change settings for this payment "
+"method."
+msgstr ""
+
+#: includes/initTikkieGateway.php:98
+msgid "Enable/Disable"
+msgstr ""
+
+#: includes/initTikkieGateway.php:100
+msgid "Enable Tikkie Fast Checkout"
+msgstr ""
+
+#: includes/initTikkieGateway.php:105
+msgid "Production mode"
+msgstr ""
+
+#: includes/initTikkieGateway.php:107
+msgid "Enable production mode"
+msgstr ""
+
+#: includes/initTikkieGateway.php:109
+msgid ""
+"When this option is enabled, payments will be processed and test-mode wil be "
+"disabled"
+msgstr ""
+
+#: includes/initTikkieGateway.php:113
+msgid "Production API-key"
+msgstr ""
+
+#: includes/initTikkieGateway.php:115
+msgid "This API-key is used for authentication in production mode"
+msgstr ""
+
+#: includes/initTikkieGateway.php:121
+msgid "Merchant token"
+msgstr ""
+
+#: includes/initTikkieGateway.php:123 includes/initTikkieGateway.php:139
+msgid ""
+"The Tikkie Fast Checkout API uses a so called 'merchant token' for "
+"authentication."
+msgstr ""
+
+#: includes/initTikkieGateway.php:129
+msgid "Test API-key"
+msgstr ""
+
+#: includes/initTikkieGateway.php:131
+msgid "This API-key is used for authentication in test mode"
+msgstr ""
+
+#: includes/initTikkieGateway.php:137
+msgid "Test Merchant token"
+msgstr ""
+
+#: includes/initTikkieGateway.php:145 includes/initTikkieGateway.php:147
+msgid "Show on product-detail page"
+msgstr ""
+
+#: includes/initTikkieGateway.php:166
+msgid "Terms of service text"
+msgstr ""
+
+#: includes/initTikkieGateway.php:168
+msgid ""
+"This text will be used when the terms of service has been enabled. You can "
+"define the link by placing your link text into square brackets ( [link "
+"text] )"
+msgstr ""
+
+#: includes/initTikkieGateway.php:174
+msgid "Terms of service link"
+msgstr ""
+
+#: includes/initTikkieGateway.php:176
+msgid ""
+"This is the URL where the terms and conditions are located. (including "
+"http(s)://)"
+msgstr ""
+
+#: includes/initTikkieGateway.php:182
+msgid "Show registration form on thank you page"
+msgstr ""
+
+#: includes/initTikkieGateway.php:184
+msgid "Let the user create an account after payment"
+msgstr ""
+
+#: includes/initTikkieGateway.php:189
+msgid "Tikkie Order Expiration time"
+msgstr ""
+
+#: includes/initTikkieGateway.php:191
+msgid ""
+"Expiration of the order in seconds, e.g. 900 when order expires in 15 "
+"minutes. (between 60-1800)"
+msgstr ""
+
+#: includes/initTikkieGateway.php:197
+msgid "Order Status"
+msgstr ""
+
+#: includes/initTikkieGateway.php:200
+msgid "Choose whether status you wish after checkout."
+msgstr ""
+
+#: includes/initTikkieGateway.php:207
+msgid "Instructions"
+msgstr ""
+
+#: includes/initTikkieGateway.php:209
+msgid "Instructions that will be added to the thank you page and emails."
+msgstr ""
+
+#: includes/initTikkieGateway.php:215
+msgid "Log file"
+msgstr ""
+
+#: includes/initTikkieGateway.php:217
+msgid "Showing log entries chronologically"
+msgstr ""
+
+#: woocommerce-tikkie-fast-checkout.php:53
+msgid ""
+"Tikkie Fast Checkout is disabled because Woocommerce is not installed or "
+"inactive."
+msgstr ""

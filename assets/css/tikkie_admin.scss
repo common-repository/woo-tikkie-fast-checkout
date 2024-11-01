@@ -1,0 +1,216 @@
+// hide admin menu-page 
+#toplevel_page_woocommerce_tikkie_fast_checkout {
+	display: none;
+}
+
+.clearfix:before,
+.clearfix:after {
+	content: " "; /* 1 */
+	display: table; /* 2 */
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+/*
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+
+ .clearfix {
+ 	*zoom: 1;
+ }
+
+ .woocommerce textarea[disabled=disabled],
+ .woocommerce textarea.readonly[disabled=disabled] {
+ 	background: white !important;
+ }
+ .woocommerce textarea.readonly {
+ 	background: white;
+ 	overflow-y: scroll;
+ 	min-height: 150px;
+ }
+
+ .alert {
+ 	position: relative;
+ 	padding: .75rem 1.25rem;
+ 	margin-bottom: 1rem;
+ 	border: 1px solid transparent;
+ 	border-radius: .25rem;
+ }
+ .alert-warning {
+ 	color: #856404;
+ 	background-color: #fff3cd;
+ 	border-color: #ffeeba;
+ }
+ .alert.alert-warning {
+ 	display: inline-block;
+ }
+
+ label {
+ 	cursor: initial;
+ 	font-weight: 600;
+ }
+
+ .setup_container {
+ 	margin: 50px auto;
+ 	width: 50%;
+ 	max-width: 620px;
+ 	@media screen and (max-width: 768px) {
+ 		width: 90%;
+ 	}
+ 	.top {
+ 		text-align: center;
+ 		background: #6868C1;
+ 		padding: 10px 0px 20px 0;
+ 	}
+ 	.body {
+ 		border: 1px solid lightgrey;
+ 		padding: 20px 20px 50px 20px;
+ 		position: relative;
+ 		>.steps {
+ 			position: absolute;
+ 			top: -25px;
+ 			left:0;
+ 			width: 100%;
+ 			display: flex;
+ 			//justify-content: 
+ 			div {
+ 				width: 25%;
+ 				//background: #6bdacf;
+ 				height: 25px;
+ 				text-align: center;
+ 				border-bottom: 3px solid #cecece;
+ 				color: #FFF;
+
+ 				&:before {
+ 					content: '.';
+ 					font-size: 102px;
+ 					position: absolute;
+ 					top: -20px;
+ 					margin-left: 16px;
+ 					color: #cecece;					
+ 				}
+ 				&.purpled {
+ 					border-bottom: 3px solid #49AD9E;
+
+ 					&:before {
+ 						content: '.';
+ 						font-size: 102px;
+ 						position: absolute;
+ 						top: -20px;
+ 						margin-left: 21px;
+ 						color: #49AD9E;
+ 					}
+ 					&.active {
+ 						&:before {
+ 							content: ' '; 							
+ 							position: absolute;
+ 							top: 21px;
+ 							margin-left: 21px;
+ 							height: 5px;
+ 							width: 5px;
+ 							display: inline-block;
+ 							background-color: white;
+ 							border: 3px solid #49AD9E;
+ 							border-radius: 100%; 							
+ 						}
+ 					}
+ 				}
+ 			}
+ 		}
+ 		input {
+ 			margin-left: 0;
+ 		}
+ 		label, input[type=text] {
+ 			width: 100%;
+ 			display: block;
+ 		}
+ 		input#woocommerce_tikkie_tkfc_shipping_cost {
+ 			width: 16%;
+ 			@media screen and (max-width: 600px) {
+ 				width: 50%;
+ 			} 			
+ 		}
+ 		form.step2 {
+ 			div {
+ 				margin-bottom: 15px;
+ 			}
+ 			label {
+ 				width: 200px;
+ 				display: inline-block;
+ 			}
+ 			.termsofservice {
+ 				margin-top: 15px;
+ 			}
+ 		}
+ 	} 
+ 	div.buttons_container {
+ 		display: flex;
+ 		flex-flow: row wrap;
+ 		justify-content: space-between;
+ 		.midleft, .midright {
+ 			margin-top: 20px;	
+ 		}
+ 		.midleft {
+ 			text-align: left;
+ 			a.button {
+ 				background-color: #f7f7f7;
+ 				color: #545454;
+ 				border: 1px solid #cecece;
+ 				box-shadow: 0;
+ 				&:hover {
+ 					background-color: darken(#f7f7f7, 7%);
+ 				} 				
+ 			}
+ 		}
+ 		.midright {
+ 			text-align: right;
+ 			a.button {
+ 				background-color: #49AD9E;
+ 				color: white;
+ 				border: 1px solid #2b675e ;
+ 				box-shadow: 0;
+ 				&:hover {
+ 					background-color: darken(#49AD9E, 7%);
+ 				}
+ 			}
+ 		} 	
+ 	}		
+ }
+
+ .required.not_filled {
+ 	border: 1px solid red;
+ }
+
+ .tkfc_form_error {
+ 	color: red;
+ 	font-weight: 700;
+ }
+
+ label[for="woocommerce_tikkie_tkfc_live"] ~ .description {
+ 	color: red;
+ 	font-size: 15px;
+ 	position: relative;
+
+ 	&:before {
+ 		font-family: Dashicons;
+ 		speak: none;
+ 		font-weight: 400;
+ 		font-variant: normal;
+ 		text-transform: none;
+ 		line-height: 1;
+ 		-webkit-font-smoothing: antialiased;
+ 		margin: 0;
+ 		text-indent: 0;
+ 		margin: -6px 0 0 -22px;
+ 		position: absolute;
+ 		left: 0;
+ 		top: 50%;
+ 		text-align: center;
+ 		content: "";
+ 		cursor: help;
+ 		font-style: normal;
+ 	}
+ }
